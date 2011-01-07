@@ -13,6 +13,6 @@ col:{[x;y]
 
 g:{:m[x]:col[x;0]}
 
-n:1+til 1000000
+n:1+til 100000
 max g each n
-exit 0
+ / exit 0
